@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.citibank.qa.testcase.TestCase]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="com.citibank.qa.testcase.TestCase">
+        <methods>
+          <include name="mortgageLink"/>
+          <include name="atmBranch"/>
+          <include name="homeEquity"/>
+          <include name="personalLoan"/>
+          <include name="closeBrowser"/>
+          <include name="creditCardLink"/>
+          <include name="setUp"/>
+          <include name="creditCardMessageValidated"/>
+          <include name="lendingLink"/>
+        </methods>
+      </class> <!-- com.citibank.qa.testcase.TestCase -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.citibank.qa.testcase.TestCase] -->

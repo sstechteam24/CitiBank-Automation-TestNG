@@ -1,0 +1,10 @@
+com\citibank\qa\util\TestUtil.class
+com\citibank\qa\homepage\CreditCardHomePage.class
+com\citibank\qa\homepage\Mortgagehome1.class
+com\citibank\qa\homepage\MortgageHome.class
+com\citibank\qa\homepage\PageBase.class
+com\citibank\qa\base\TestBase.class
+com\citibank\qa\homepage\Home.class
+com\citibank\qa\homepage\HomeEquity.class
+com\citibank\qa\homepage\PersonalLoan.class
+com\citibank\qa\homepage\HomePage.class

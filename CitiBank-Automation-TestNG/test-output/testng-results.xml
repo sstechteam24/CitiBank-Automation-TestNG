@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="238137" started-at="2019-12-05T04:20:24Z" finished-at="2019-12-05T04:24:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="238137" started-at="2019-12-05T04:20:24Z" finished-at="2019-12-05T04:24:22Z">
+      <class name="com.citibank.qa.testcase.TestCase">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.citibank.qa.testcase.TestCase@604ed9f0]" name="setUp" is-config="true" duration-ms="16374" started-at="2019-12-05T04:20:24Z" finished-at="2019-12-05T04:20:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchingText()[pri:0, instance:com.citibank.qa.testcase.TestCase@604ed9f0]" name="searchingText" duration-ms="6137" started-at="2019-12-05T04:20:40Z" finished-at="2019-12-05T04:20:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchingText -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.citibank.qa.testcase.TestCase@604ed9f0]" name="closeBrowser" is-config="true" duration-ms="848" started-at="2019-12-05T04:20:46Z" finished-at="2019-12-05T04:20:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.citibank.qa.testcase.TestCase@604ed9f0]" name="setUp" is-config="true" duration-ms="14661" started-at="2019-12-05T04:20:47Z" finished-at="2019-12-05T04:21:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="titleValidation()[pri:1, instance:com.citibank.qa.testcase.TestCase@604ed9f0]" name="titleValidation" duration-ms="307" started-at="2019-12-05T04:21:02Z" finished-at="2019-12-05T04:21:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleValidation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.citibank.qa.testcase.TestCase@604ed9f0]" name="closeBrowser" is-config="true" duration-ms="917" started-at="2019-12-05T04:21:02Z" finished-at="2019-12-05T04:21:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.citibank.qa.testcase.TestCase@604ed9f0]" name="setUp" is-config="true" duration-ms="13850" started-at="2019-12-05T04:21:03Z" finished-at="2019-12-05T04:21:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validationSearchText()[pri:2, instance:com.citibank.qa.testcase.TestCase@604ed9f0]" name="validationSearchText" duration-ms="247" started-at="2019-12-05T04:21:17Z" finished-at="2019-12-05T04:21:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationSearchText -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.citibank.qa.testcase.TestCase@604ed9f0]" name="closeBrowser" is-config="true" duration-ms="830" started-at="2019-12-05T04:21:17Z" finished-at="2019-12-05T04:21:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.citibank.qa.testcase.TestCase@604ed9f0]" name="setUp" is-config="true" duration-ms="14433" started-at="2019-12-05T04:21:18Z" finished-at="2019-12-05T04:21:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="citiLogoValidation()[pri:3, instance:com.citibank.qa.testcase.TestCase@604ed9f0]" name="citiLogoValidation" duration-ms="1289" started-at="2019-12-05T04:21:32Z" finished-at="2019-12-05T04:21:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- citiLogoValidation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.citibank.qa.testcase.TestCase@604ed9f0]" name="closeBrowser" is-config="true" duration-ms="850" started-at="2019-12-05T04:21:34Z" finished-at="2019-12-05T04:21:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.citibank.qa.testcase.TestCase@604ed9f0]" name="setUp" is-config="true" duration-ms="14454" started-at="2019-12-05T04:21:34Z" finished-at="2019-12-05T04:21:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="rememberUidLabel()[pri:4, instance:com.citibank.qa.testcase.TestCase@604ed9f0]" name="rememberUidLabel" duration-ms="174" started-at="2019-12-05T04:21:49Z" finished-at="2019-12-05T04:21:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rememberUidLabel -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.citibank.qa.testcase.TestCase@604ed9f0]" name="closeBrowser" is-config="true" duration-ms="834" started-at="2019-12-05T04:21:49Z" finished-at="2019-12-05T04:21:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.citibank.qa.testcase.TestCase@604ed9f0]" name="setUp" is-config="true" duration-ms="14611" started-at="2019-12-05T04:21:50Z" finished-at="2019-12-05T04:22:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="signInBtnDisplayed()[pri:5, instance:com.citibank.qa.testcase.TestCase@604ed9f0]" name="signInBtnDisplayed" duration-ms="2091" started-at="2019-12-05T04:22:05Z" finished-at="2019-12-05T04:22:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInBtnDisplayed -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.citibank.qa.testcase.TestCase@604ed9f0]" name="closeBrowser" is-config="true" duration-ms="1108" started-at="2019-12-05T04:22:07Z" finished-at="2019-12-05T04:22:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.citibank.qa.testcase.TestCase@604ed9f0]" name="setUp" is-config="true" duration-ms="15363" started-at="2019-12-05T04:22:08Z" finished-at="2019-12-05T04:22:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="creditCardMessageValidated()[pri:6, instance:com.citibank.qa.testcase.TestCase@604ed9f0]" name="creditCardMessageValidated" duration-ms="2140" started-at="2019-12-05T04:22:23Z" finished-at="2019-12-05T04:22:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creditCardMessageValidated -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.citibank.qa.testcase.TestCase@604ed9f0]" name="closeBrowser" is-config="true" duration-ms="865" started-at="2019-12-05T04:22:25Z" finished-at="2019-12-05T04:22:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.citibank.qa.testcase.TestCase@604ed9f0]" name="setUp" is-config="true" duration-ms="15139" started-at="2019-12-05T04:22:26Z" finished-at="2019-12-05T04:22:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="creditCardLink()[pri:7, instance:com.citibank.qa.testcase.TestCase@604ed9f0]" name="creditCardLink" duration-ms="2478" started-at="2019-12-05T04:22:41Z" finished-at="2019-12-05T04:22:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creditCardLink -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.citibank.qa.testcase.TestCase@604ed9f0]" name="closeBrowser" is-config="true" duration-ms="1628" started-at="2019-12-05T04:22:44Z" finished-at="2019-12-05T04:22:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.citibank.qa.testcase.TestCase@604ed9f0]" name="setUp" is-config="true" duration-ms="13986" started-at="2019-12-05T04:22:45Z" finished-at="2019-12-05T04:22:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="atmBranch()[pri:8, instance:com.citibank.qa.testcase.TestCase@604ed9f0]" name="atmBranch" duration-ms="2474" started-at="2019-12-05T04:22:59Z" finished-at="2019-12-05T04:23:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atmBranch -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.citibank.qa.testcase.TestCase@604ed9f0]" name="closeBrowser" is-config="true" duration-ms="816" started-at="2019-12-05T04:23:02Z" finished-at="2019-12-05T04:23:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.citibank.qa.testcase.TestCase@604ed9f0]" name="setUp" is-config="true" duration-ms="14098" started-at="2019-12-05T04:23:03Z" finished-at="2019-12-05T04:23:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="lendingLink()[pri:9, instance:com.citibank.qa.testcase.TestCase@604ed9f0]" name="lendingLink" duration-ms="3367" started-at="2019-12-05T04:23:17Z" finished-at="2019-12-05T04:23:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lendingLink -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.citibank.qa.testcase.TestCase@604ed9f0]" name="closeBrowser" is-config="true" duration-ms="803" started-at="2019-12-05T04:23:20Z" finished-at="2019-12-05T04:23:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.citibank.qa.testcase.TestCase@604ed9f0]" name="setUp" is-config="true" duration-ms="14595" started-at="2019-12-05T04:23:21Z" finished-at="2019-12-05T04:23:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="personalLoan()[pri:10, instance:com.citibank.qa.testcase.TestCase@604ed9f0]" name="personalLoan" duration-ms="3479" started-at="2019-12-05T04:23:36Z" finished-at="2019-12-05T04:23:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personalLoan -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.citibank.qa.testcase.TestCase@604ed9f0]" name="closeBrowser" is-config="true" duration-ms="894" started-at="2019-12-05T04:23:39Z" finished-at="2019-12-05T04:23:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.citibank.qa.testcase.TestCase@604ed9f0]" name="setUp" is-config="true" duration-ms="13740" started-at="2019-12-05T04:23:40Z" finished-at="2019-12-05T04:23:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="mortgageLink()[pri:11, instance:com.citibank.qa.testcase.TestCase@604ed9f0]" name="mortgageLink" duration-ms="3642" started-at="2019-12-05T04:23:54Z" finished-at="2019-12-05T04:23:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mortgageLink -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.citibank.qa.testcase.TestCase@604ed9f0]" name="closeBrowser" is-config="true" duration-ms="1504" started-at="2019-12-05T04:23:57Z" finished-at="2019-12-05T04:23:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.citibank.qa.testcase.TestCase@604ed9f0]" name="setUp" is-config="true" duration-ms="14004" started-at="2019-12-05T04:23:59Z" finished-at="2019-12-05T04:24:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="homeEquity()[pri:12, instance:com.citibank.qa.testcase.TestCase@604ed9f0]" name="homeEquity" duration-ms="8201" started-at="2019-12-05T04:24:13Z" finished-at="2019-12-05T04:24:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeEquity -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.citibank.qa.testcase.TestCase@604ed9f0]" name="closeBrowser" is-config="true" duration-ms="829" started-at="2019-12-05T04:24:21Z" finished-at="2019-12-05T04:24:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.citibank.qa.testcase.TestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

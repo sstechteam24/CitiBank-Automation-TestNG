@@ -1,0 +1,69 @@
+-------------------------------------------------------------------------------
+Test set: com.citibank.qa.testcase.TestCase
+-------------------------------------------------------------------------------
+Tests run: 27, Failures: 1, Errors: 0, Skipped: 20, Time elapsed: 151.848 sec <<< FAILURE!
+setUp(com.citibank.qa.testcase.TestCase)  Time elapsed: 16.812 sec  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: session not created
+from chrome not reachable
+  (Session info: chrome=78.0.3904.108)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-CG5HG66', ip: '192.168.0.125', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0094EB13+1501971]
+	Ordinal0 [0x008CF6D1+980689]
+	Ordinal0 [0x00857508+488712]
+	Ordinal0 [0x0085131A+463642]
+	Ordinal0 [0x008519C8+465352]
+	Ordinal0 [0x00852AA5+469669]
+	Ordinal0 [0x0084EC85+453765]
+	Ordinal0 [0x00858330+492336]
+	Ordinal0 [0x0080A108+172296]
+	Ordinal0 [0x0080942D+169005]
+	Ordinal0 [0x008078EB+162027]
+	Ordinal0 [0x007F0AC7+68295]
+	Ordinal0 [0x007F1B40+72512]
+	Ordinal0 [0x007F1AD9+72409]
+	Ordinal0 [0x008E8F37+1085239]
+	GetHandleVerifier [0x009ED7ED+503293]
+	GetHandleVerifier [0x009ED580+502672]
+	GetHandleVerifier [0x009F46AC+531644]
+	GetHandleVerifier [0x009EDFFA+505354]
+	Ordinal0 [0x008E0606+1050118]
+	Ordinal0 [0x008E047F+1049727]
+	Ordinal0 [0x008EAF9B+1093531]
+	Ordinal0 [0x008EB103+1093891]
+	Ordinal0 [0x008EA095+1089685]
+	BaseThreadInitThunk [0x74C26359+25]
+	RtlGetAppContainerNamedObjectPath [0x770D7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x770D7B44+180]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at com.citibank.qa.base.TestBase.initialization(TestBase.java:45)
+	at com.citibank.qa.testcase.TestCase.setUp(TestCase.java:22)
+

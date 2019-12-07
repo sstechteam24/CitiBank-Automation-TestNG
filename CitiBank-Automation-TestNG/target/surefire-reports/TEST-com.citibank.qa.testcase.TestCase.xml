@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="27" failures="1" name="com.citibank.qa.testcase.TestCase" time="372.41" errors="0" skipped="20">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:/Users/MD Hasan/Downloads/CitiBank-Automation-TestNG/CitiBank-Automation-TestNG"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\MD Hasan\Downloads\CitiBank-Automation-TestNG\CitiBank-Automation-TestNG"/>
+    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\MDHASA~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:/Program Files/apache-maven-3.6.1/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\MD Hasan\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\MD Hasan\bin;C:\app\MDHasan\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\nodejs;C:\Users\MD Hasan\AppData\Local\Android\Sdk;C:\Program Files\apache-maven-3.6.1\bin;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Users\MD Hasan\AppData\Local\Microsoft\WindowsApps;C:\Users\MD Hasan\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="maven.conf" value="C:/Program Files/apache-maven-3.6.1/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:/Program Files/apache-maven-3.6.1/lib/jansi-native"/>
+    <property name="user.home" value="C:\Users\MD Hasan"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="MD Hasan"/>
+    <property name="java.class.path" value="C:/Program Files/apache-maven-3.6.1/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_191\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_191\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.6.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.citibank.qa.testcase.TestCase" name="searchingText" time="8.538"/>
+  <testcase classname="com.citibank.qa.testcase.TestCase" name="titleValidation" time="0.569"/>
+  <testcase classname="com.citibank.qa.testcase.TestCase" name="validationSearchText" time="3.069"/>
+  <testcase classname="com.citibank.qa.testcase.TestCase" name="citiLogoValidation" time="2.719"/>
+  <testcase classname="com.citibank.qa.testcase.TestCase" name="rememberUidLabel" time="4.261"/>
+  <testcase classname="com.citibank.qa.testcase.TestCase" name="signInBtnDisplayed" time="0.104"/>
+  <testcase classname="com.citibank.qa.testcase.TestCase" name="setUp" time="16.812">
+    <failure message="session not created
+from chrome not reachable
+  (Session info: chrome=78.0.3904.108)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-CG5HG66&apos;, ip: &apos;192.168.0.125&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0094EB13+1501971]
+	Ordinal0 [0x008CF6D1+980689]
+	Ordinal0 [0x00857508+488712]
+	Ordinal0 [0x0085131A+463642]
+	Ordinal0 [0x008519C8+465352]
+	Ordinal0 [0x00852AA5+469669]
+	Ordinal0 [0x0084EC85+453765]
+	Ordinal0 [0x00858330+492336]
+	Ordinal0 [0x0080A108+172296]
+	Ordinal0 [0x0080942D+169005]
+	Ordinal0 [0x008078EB+162027]
+	Ordinal0 [0x007F0AC7+68295]
+	Ordinal0 [0x007F1B40+72512]
+	Ordinal0 [0x007F1AD9+72409]
+	Ordinal0 [0x008E8F37+1085239]
+	GetHandleVerifier [0x009ED7ED+503293]
+	GetHandleVerifier [0x009ED580+502672]
+	GetHandleVerifier [0x009F46AC+531644]
+	GetHandleVerifier [0x009EDFFA+505354]
+	Ordinal0 [0x008E0606+1050118]
+	Ordinal0 [0x008E047F+1049727]
+	Ordinal0 [0x008EAF9B+1093531]
+	Ordinal0 [0x008EB103+1093891]
+	Ordinal0 [0x008EA095+1089685]
+	BaseThreadInitThunk [0x74C26359+25]
+	RtlGetAppContainerNamedObjectPath [0x770D7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x770D7B44+180]
+" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: session not created
+from chrome not reachable
+  (Session info: chrome=78.0.3904.108)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-CG5HG66&apos;, ip: &apos;192.168.0.125&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0094EB13+1501971]
+	Ordinal0 [0x008CF6D1+980689]
+	Ordinal0 [0x00857508+488712]
+	Ordinal0 [0x0085131A+463642]
+	Ordinal0 [0x008519C8+465352]
+	Ordinal0 [0x00852AA5+469669]
+	Ordinal0 [0x0084EC85+453765]
+	Ordinal0 [0x00858330+492336]
+	Ordinal0 [0x0080A108+172296]
+	Ordinal0 [0x0080942D+169005]
+	Ordinal0 [0x008078EB+162027]
+	Ordinal0 [0x007F0AC7+68295]
+	Ordinal0 [0x007F1B40+72512]
+	Ordinal0 [0x007F1AD9+72409]
+	Ordinal0 [0x008E8F37+1085239]
+	GetHandleVerifier [0x009ED7ED+503293]
+	GetHandleVerifier [0x009ED580+502672]
+	GetHandleVerifier [0x009F46AC+531644]
+	GetHandleVerifier [0x009EDFFA+505354]
+	Ordinal0 [0x008E0606+1050118]
+	Ordinal0 [0x008E047F+1049727]
+	Ordinal0 [0x008EAF9B+1093531]
+	Ordinal0 [0x008EB103+1093891]
+	Ordinal0 [0x008EA095+1089685]
+	BaseThreadInitThunk [0x74C26359+25]
+	RtlGetAppContainerNamedObjectPath [0x770D7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x770D7B44+180]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.citibank.qa.base.TestBase.initialization(TestBase.java:45)
+	at com.citibank.qa.testcase.TestCase.setUp(TestCase.java:22)
+</failure>
+    <system-err>Starting ChromeDriver 77.0.3865.40 (f484704e052e0b556f8030b65b953dce96503217-refs/branch-heads/3865@{#442}) on port 36879
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1575733504.656][WARNING]: This version of ChromeDriver has not been tested with Chrome version 78.
+[1575733506.742][WARNING]: Timed out connecting to Chrome, retrying...
+[1575733510.744][WARNING]: Timed out connecting to Chrome, retrying...
+</system-err>
+  </testcase>
+  <testcase classname="com.citibank.qa.testcase.TestCase" name="creditCardMessageValidated" time="16.813">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.citibank.qa.testcase.TestCase" name="closeBrowser" time="16.813">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.citibank.qa.testcase.TestCase" name="setUp" time="16.813">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.citibank.qa.testcase.TestCase" name="creditCardLink" time="16.813">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.citibank.qa.testcase.TestCase" name="closeBrowser" time="16.813">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.citibank.qa.testcase.TestCase" name="setUp" time="16.814">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.citibank.qa.testcase.TestCase" name="atmBranch" time="16.814">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.citibank.qa.testcase.TestCase" name="closeBrowser" time="16.815">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.citibank.qa.testcase.TestCase" name="setUp" time="16.816">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.citibank.qa.testcase.TestCase" name="lendingLink" time="16.816">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.citibank.qa.testcase.TestCase" name="closeBrowser" time="16.817">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.citibank.qa.testcase.TestCase" name="setUp" time="16.818">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.citibank.qa.testcase.TestCase" name="personalLoan" time="16.818">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.citibank.qa.testcase.TestCase" name="closeBrowser" time="16.819">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.citibank.qa.testcase.TestCase" name="setUp" time="16.819">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.citibank.qa.testcase.TestCase" name="mortgageLink" time="16.82">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.citibank.qa.testcase.TestCase" name="closeBrowser" time="16.821">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.citibank.qa.testcase.TestCase" name="setUp" time="16.822">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.citibank.qa.testcase.TestCase" name="homeEquity" time="16.822">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.citibank.qa.testcase.TestCase" name="closeBrowser" time="16.822">
+    <skipped/>
+  </testcase>
+</testsuite>
